@@ -4,6 +4,12 @@ h1 {
 	margin-bottom: 1.5rem;
 	color:#ffffff;
 }
+body {
+color: #303030;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
 .container {
 	background: #000000;
   	font-size: 1rem;
