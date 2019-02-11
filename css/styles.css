@@ -58,10 +58,6 @@ header {
     background-color:#4800db;
     background-color: #000000;
 }
-h2 {
-
-}
-
 @media screen and (min-width: 640px){
   .header {
     display: flex;
