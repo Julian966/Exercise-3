@@ -5,10 +5,10 @@ h1 {
 	color:#ffffff;
 }
 body {
-color: #303030;
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+ 	 color: #303030;
+ 	 font-family: sans-serif;
+  	 margin: 0;
+ 	 padding: 0;
 }
 .container {
 	background: #000000;
@@ -19,9 +19,9 @@ color: #303030;
   	line-height: 0.75rem;
 	}
 .main-nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  	list-style: none;
+ 	 margin: 0;
+ 	 padding: 0;
 }
 .main-nav-item {
 	font-weight: bold;
@@ -38,6 +38,11 @@ ul {
   	font-size:.75rem;
   	margin:100px 100px 1.5rem;
 }
+.portfolio {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr)
+}
 nav {
 	text-align:right;
 }
@@ -49,6 +54,9 @@ nav {
     height:5px;
     background-color:#4800db;
     background-color: #000000;
+}
+h2 {
+
 }
 
 @media screen and (min-width: 640px){
